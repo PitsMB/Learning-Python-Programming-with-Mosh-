@@ -1,8 +1,12 @@
-#Classes
+#Constructors
 
 numbers = [1, 2, 3]
 
 class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
     def move(self):
         print("move")
 
@@ -10,5 +14,5 @@ class Point:
         print("draw")
 
 
-point1 = Point()
-point1.draw()
+point = Point(10, 20)
+print(point.x)
