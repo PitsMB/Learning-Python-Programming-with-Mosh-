@@ -2,7 +2,7 @@
 
 from pathlib import Path
 
-path = Path("Test41extension")
+path = Path("FilesAndDiretoriesExtension")
 print(path.exists())
 
 for file in path.glob('*.py'):
